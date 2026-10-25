@@ -1,8 +1,10 @@
 # Hi there / Moikkelis moi
 
-I turn ideas into working tools with AI: from the first experiment to something people actually use.
+I like to start from a small, real problem, prototype it quickly with AI, test it on real data, and keep only what
+turns out to be useful. Privacy and "does it actually work?" come first.
 
-Muutan ideoita toimiviksi työkaluiksi tekoälyn avulla: ensimmäisestä kokeilusta oikeaan käyttöön.
+Aloitan pienestä, oikeasta ongelmasta, teen nopean prototyypin tekoälyn kanssa, testaan sen oikealla datalla ja jätän
+jäljelle vain sen, mikä osoittautuu hyödylliseksi. Yksityisyys ja se, että asia oikeasti toimii, tulevat ensin.
 
 Most of my repositories are private. **I can send you a private link to a case study, give read access to a
 repository, or walk through the code on a call. Just ask.**
