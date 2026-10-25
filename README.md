@@ -1,4 +1,8 @@
-# Hi / Moi 👋
+# Hi there / Moikkelis moi
+
+I turn ideas into working tools with AI: from the first experiment to something people actually use.
+
+Muutan ideoita toimiviksi työkaluiksi tekoälyn avulla: ensimmäisestä kokeilusta oikeaan käyttöön.
 
 Most of my repositories are private. **I can send you a private link to a case study, give read access to a
 repository, or walk through the code on a call. Just ask.**
