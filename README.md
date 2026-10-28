@@ -1,4 +1,4 @@
-# Hi there / Moikka moi
+# Hi / Moi
 
 *In Finnish below. Suomeksi alempana.*
 
@@ -12,7 +12,7 @@ repository, or walk through the code on a call. Just ask.**
 
 - **Guardian-app automation with a local LLM:** calendar sync and photo archive, read-only by design, fully local,
   71 tests. Case study with architecture and code excerpts on request.
-- **photo-tidy:** conservative photo orientation with a local vision model and UTF-8 EXIF captions *(coming soon)*.
+- **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** photo orientation with a local vision model and UTF-8 EXIF captions.
 
 ## Contact
 
@@ -32,8 +32,7 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 - **Huoltajasovelluksen automaatio paikallisella kielimallilla:** kalenterisynkka ja kuva-arkisto, vain luku
   -periaatteella, täysin paikallinen, 71 testiä. Case study arkkitehtuurikuvauksineen ja koodiesimerkkeineen pyynnöstä.
-- **photo-tidy:** varovainen kuvien suunnan korjaus paikallisella näkömallilla ja UTF-8-kuvatekstit EXIFiin
-  *(tulossa)*.
+- **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** kuvien suunnan korjaus paikallisella näkömallilla ja UTF-8-kuvatekstit EXIFiin.
 
 ### Yhteystiedot
 
