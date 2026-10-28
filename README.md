@@ -1,4 +1,4 @@
-# Hi there / Moikkelis moi
+# Hi there / Moikka moi
 
 *In Finnish below. Suomeksi alempana.*
 
