@@ -10,8 +10,9 @@ repository, or walk through the code on a call. Just ask.**
 
 ## Selected work
 
-- **Guardian-app automation with a local LLM:** calendar sync and photo archive, read-only by design, fully local,
-  71 tests. Case study with architecture and code excerpts on request.
+- **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** puts Wilma exams and teachers' messages into
+  iCloud calendars with reminders. Messages are interpreted by a local LLM (Ollama), so nothing leaves the machine;
+  read-only towards Wilma, 149 tests. Unofficial, in Finnish.
 - **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** photo orientation with a local vision model and UTF-8 EXIF captions.
 
 ## Contact
@@ -30,8 +31,9 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 ### Valitut työt
 
-- **Huoltajasovelluksen automaatio paikallisella kielimallilla:** kalenterisynkka ja kuva-arkisto, vain luku
-  -periaatteella, täysin paikallinen, 71 testiä. Case study arkkitehtuurikuvauksineen ja koodiesimerkkeineen pyynnöstä.
+- **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** vie Wilman kokeet ja opettajien viestit
+  iCloud-kalentereihin muistutuksineen. Viestit tulkitsee paikallinen kielimalli (Ollama), joten mikään ei lähde
+  koneelta; vain luku Wilmaan päin, 149 testiä. Epävirallinen, suomenkielinen.
 - **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** kuvien suunnan korjaus paikallisella näkömallilla ja UTF-8-kuvatekstit EXIFiin.
 
 ### Yhteystiedot
