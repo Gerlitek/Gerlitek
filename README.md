@@ -13,6 +13,9 @@ repository, or walk through the code on a call. Just ask.**
 - **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game built with AI as a cloud work sample:
   Azure Policy and budget guardrails in Bicep before any resource, deploy with GitHub Actions.
   [Play it](https://zombit.gerlitek.fi) (desktop, in Finnish).
+- **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
+  pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
+  Code is private; happy to walk through it.
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** puts Wilma exams and teachers' messages into
   iCloud calendars with reminders. Messages are interpreted by a local LLM (Ollama), so nothing leaves the machine;
   read-only towards Wilma, 149 tests. Unofficial, in Finnish.
@@ -37,6 +40,9 @@ koodin läpi näytön jaolla. Kysy vain.**
 - **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, toteutettu tekoälyn kanssa pilvityön näytteeksi:
   Azure Policy ja budjettisuojaukset Bicepillä ennen yhtäkään resurssia, julkaisu GitHub Actionsilla.
   [Pelaa](https://zombit.gerlitek.fi) (tietokoneella).
+- **[AI Radar](https://ai.gerlitek.fi):** kuratoitu päivittäinen näkymä tekoälyuutisiin, tutkimukseen ja julkaisuihin (FI/EN).
+  Tunneittain ajettava putki kerää RSS- ja API-lähteet, suodattaa avainsanoilla, poistaa toistot ja pisteyttää.
+  PHP ja MySQL. Koodi ei ole julkinen; käyn sen mielelläni läpi.
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** vie Wilman kokeet ja opettajien viestit
   iCloud-kalentereihin muistutuksineen. Viestit tulkitsee paikallinen kielimalli (Ollama), joten mikään ei lähde
   koneelta; vain luku Wilmaan päin, 149 testiä. Epävirallinen, suomenkielinen.
