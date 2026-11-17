@@ -23,7 +23,7 @@ repository, or walk through the code on a call. Just ask.**
 
 ## Contact
 
-[info@gerlitek.fi](mailto:info@gerlitek.fi) · [LinkedIn](https://www.linkedin.com/in/pniva/) · [gerlitek.fi](https://gerlitek.fi)
+[info@gerlitek.fi](mailto:info@gerlitek.fi)
 
 ---
 
@@ -50,4 +50,4 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 ### Yhteystiedot
 
-[info@gerlitek.fi](mailto:info@gerlitek.fi) · [LinkedIn](https://www.linkedin.com/in/pniva/) · [gerlitek.fi](https://gerlitek.fi)
+[info@gerlitek.fi](mailto:info@gerlitek.fi)
