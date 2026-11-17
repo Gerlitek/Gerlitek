@@ -10,8 +10,8 @@ repository, or walk through the code on a call. Just ask.**
 
 ## Selected work
 
-- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game designed by my child, built with AI
-  as a cloud work sample: Azure Policy and budget guardrails in Bicep before any resource, deploy with GitHub Actions.
+- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game built with AI as a cloud work sample:
+  Azure Policy and budget guardrails in Bicep before any resource, deploy with GitHub Actions.
   [Play it](https://zombit.gerlitek.fi) (desktop, in Finnish).
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** puts Wilma exams and teachers' messages into
   iCloud calendars with reminders. Messages are interpreted by a local LLM (Ollama), so nothing leaves the machine;
@@ -34,8 +34,8 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 ### Valitut työt
 
-- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** lapseni suunnittelema selainpeli, toteutettu tekoälyn kanssa
-  pilvityön näytteeksi: Azure Policy ja budjettisuojaukset Bicepillä ennen yhtäkään resurssia, julkaisu GitHub Actionsilla.
+- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, toteutettu tekoälyn kanssa pilvityön näytteeksi:
+  Azure Policy ja budjettisuojaukset Bicepillä ennen yhtäkään resurssia, julkaisu GitHub Actionsilla.
   [Pelaa](https://zombit.gerlitek.fi) (tietokoneella).
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** vie Wilman kokeet ja opettajien viestit
   iCloud-kalentereihin muistutuksineen. Viestit tulkitsee paikallinen kielimalli (Ollama), joten mikään ei lähde
