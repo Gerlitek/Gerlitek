@@ -15,7 +15,7 @@ repository, or walk through the code on a call. Just ask.**
   [Play it](https://zombit.gerlitek.fi) (desktop, in Finnish).
 - **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
   pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
-  Code is private; happy to walk through it.
+  Code is private; walkthrough on request.
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** puts Wilma exams and teachers' messages into
   iCloud calendars with reminders. Messages are interpreted by a local LLM (Ollama), so nothing leaves the machine;
   read-only towards Wilma, 149 tests. Unofficial, in Finnish.
@@ -42,7 +42,7 @@ koodin läpi näytön jaolla. Kysy vain.**
   [Pelaa](https://zombit.gerlitek.fi) (tietokoneella).
 - **[AI Radar](https://ai.gerlitek.fi):** kuratoitu päivittäinen näkymä tekoälyuutisiin, tutkimukseen ja julkaisuihin (FI/EN).
   Tunneittain ajettava putki kerää RSS- ja API-lähteet, suodattaa avainsanoilla, poistaa toistot ja pisteyttää.
-  PHP ja MySQL. Koodi ei ole julkinen; käyn sen mielelläni läpi.
+  PHP ja MySQL. Koodi ei ole julkinen; käyn sen läpi pyydettäessä.
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** vie Wilman kokeet ja opettajien viestit
   iCloud-kalentereihin muistutuksineen. Viestit tulkitsee paikallinen kielimalli (Ollama), joten mikään ei lähde
   koneelta; vain luku Wilmaan päin, 149 testiä. Epävirallinen, suomenkielinen.
