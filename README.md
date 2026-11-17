@@ -23,7 +23,7 @@ repository, or walk through the code on a call. Just ask.**
 
 ## Contact
 
-Via the email or links in my GitHub profile.
+[info@gerlitek.fi](mailto:info@gerlitek.fi) · [LinkedIn](https://www.linkedin.com/in/pniva/) · [gerlitek.fi](https://gerlitek.fi)
 
 ---
 
@@ -50,4 +50,4 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 ### Yhteystiedot
 
-GitHub-profiilini sähköpostin tai linkkien kautta.
+[info@gerlitek.fi](mailto:info@gerlitek.fi) · [LinkedIn](https://www.linkedin.com/in/pniva/) · [gerlitek.fi](https://gerlitek.fi)
