@@ -21,10 +21,6 @@ repository, or walk through the code on a call. Just ask.**
   read-only towards Wilma, 149 tests. Unofficial, in Finnish.
 - **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** photo orientation with a local vision model and UTF-8 EXIF captions.
 
-## Contact
-
-[info@gerlitek.fi](mailto:info@gerlitek.fi)
-
 ---
 
 ## Suomeksi
@@ -47,7 +43,3 @@ koodin läpi näytön jaolla. Kysy vain.**
   iCloud-kalentereihin muistutuksineen. Viestit tulkitsee paikallinen kielimalli (Ollama), joten mikään ei lähde
   koneelta; vain luku Wilmaan päin, 149 testiä. Epävirallinen, suomenkielinen.
 - **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** kuvien suunnan korjaus paikallisella näkömallilla ja UTF-8-kuvatekstit EXIFiin.
-
-### Yhteystiedot
-
-[info@gerlitek.fi](mailto:info@gerlitek.fi)
