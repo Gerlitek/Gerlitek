@@ -11,8 +11,8 @@ repository, or walk through the code on a call. Just ask.**
 ## Selected work
 
 - **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game I built with AI, and where I show my
-  Azure work. It's live for anyone: [play it](https://zombit.gerlitek.fi) on a computer (in Finnish). Behind it runs the
-  game's own service with a score table:
+  Azure work. It's live for anyone: [play it](https://zombit.gerlitek.fi) on a computer (in Finnish). Behind it runs
+  this game's service with a score table:
   - **Costs under control:** a budget, an anomaly alert, and Azure Policy that blocks expensive resources and settings
     before they exist.
   - **No passwords:** a Python API on Azure Functions' pay-per-use Flex Consumption plan, reaching storage through a
@@ -46,7 +46,7 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 - **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, jonka tein tekoälyn kanssa ja jolla
   näytän Azure-osaamista. Peli on kaikkien saatavilla netissä: [pelaa](https://zombit.gerlitek.fi) tietokoneella.
-  Azuressa pyörii pelin oma palvelu pistetaulukkoineen:
+  Azuressa pyörii tämän pelin palvelu pistetaulukkoineen:
   - **Kulut kuriin:** budjetti, poikkeamahälytys ja Azure Policy, joka estää kalliit resurssit ja kalliit asetukset jo
     ennen kuin ne syntyvät.
   - **Ei salasanoja:** Python-API pyörii Azure Functionsin käytönmukaisella Flex Consumption -tasolla ja käyttää
