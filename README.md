@@ -18,7 +18,7 @@ repository, or walk through the code on a call. Just ask.**
   - **No passwords:** a Python API on Azure Functions' pay-per-use Flex Consumption plan (scales to zero, capped at one instance), reaching storage through a
     managed identity. Storage account keys can't be used at all, so there is no key to leak.
   - **Least privilege:** GitHub Actions signs in with OIDC, no secrets, and can only touch the game's own resource
-    group. Subscription-level rights and policies stay with the owner, and infra and API deploys wait for an approval.
+    group. Subscription-level rights and policies stay with the owner, and every deploy waits for an approval.
   - **All as code:** the whole Azure side is Bicep, budget and policies included. The deploy pipeline previews each
     change with `what-if` and never deletes resources that are missing from the template.
   - **Data:** events land as raw files in Blob Storage and a lifecycle rule deletes them after 30 days. The score table
@@ -53,7 +53,7 @@ koodin läpi näytön jaolla. Kysy vain.**
   - **Ei salasanoja:** Python-API pyörii Azure Functionsin käytönmukaisella Flex Consumption -tasolla (skaalautuu nollaan, enintään yksi instanssi) ja käyttää
     tallennustilaa hallitulla identiteetillä. Tallennustilaan ei pääse avaimilla ollenkaan, joten vuotavaa avainta ei ole.
   - **Pienet oikeudet:** GitHub Actions kirjautuu OIDC:llä, ilman salasanoja, ja pääsee vain pelin omaan
-    resurssiryhmään. Tilaustason oikeudet ja policyt ovat vain omistajalla, ja infran ja API:n julkaisu odottaa hyväksyntää.
+    resurssiryhmään. Tilaustason oikeudet ja policyt ovat vain omistajalla, ja jokainen julkaisu odottaa hyväksyntää.
   - **Kaikki koodina:** koko Azure-puoli on Bicepiä, myös budjetti ja policyt. Julkaisuputki esikatselee jokaisen
     muutoksen `what-if`illa eikä koskaan poista resursseja, jotka puuttuvat mallista.
   - **Data:** tapahtumat tallentuvat raakadatana Blob Storageen, ja elinkaarisääntö poistaa ne 30 päivän kuluttua.
