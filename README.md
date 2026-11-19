@@ -10,9 +10,19 @@ repository, or walk through the code on a call. Just ask.**
 
 ## Selected work
 
-- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game built with AI as a cloud work sample:
-  Azure Policy and budget guardrails in Bicep before any resource, deploy with GitHub Actions.
-  [Play it](https://zombit.gerlitek.fi) (desktop, in Finnish).
+- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game I built with AI, and where I show my
+  Azure work. It's live for anyone: [play it](https://zombit.gerlitek.fi) on a computer (in Finnish). Behind it runs a
+  real service with a score table:
+  - **Costs under control:** a budget, an anomaly alert, and Azure Policy that blocks expensive resources and settings
+    before they exist.
+  - **No keys:** a Python API on Azure Functions' pay-per-use Flex Consumption plan, reaching storage through a managed
+    identity. Storage account keys are switched off.
+  - **Least privilege:** GitHub Actions signs in with OIDC, no secrets, and can only touch the game's own resource
+    group. Roles are given by hand, separately.
+  - **All as code:** the infra is Bicep, and every change is previewed with `what-if` and approved before it goes out.
+  - **Data:** events land as raw files in Blob Storage and a lifecycle rule deletes them after 30 days. The score table
+    lives in Table Storage.
+  - **A real bug found:** Flex's default concurrency made requests hang, and I fixed it by measuring.
 - **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
   pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
   Code is private; happy to go through it on request.
@@ -33,9 +43,20 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 ### Valitut työt
 
-- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, toteutettu tekoälyn kanssa pilvityön näytteeksi:
-  Azure Policy ja budjettisuojaukset Bicepillä ennen yhtäkään resurssia, julkaisu GitHub Actionsilla.
-  [Pelaa](https://zombit.gerlitek.fi) (tietokoneella).
+- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, jonka tein tekoälyn kanssa ja jolla
+  näytän Azure-osaamista. Peli on kaikkien saatavilla netissä: [pelaa](https://zombit.gerlitek.fi) tietokoneella.
+  Azuressa pyörii oikea palvelu pistetaulukkoineen:
+  - **Kulut kuriin:** budjetti, poikkeamahälytys ja Azure Policy, joka estää kalliit resurssit ja kalliit asetukset jo
+    ennen kuin ne syntyvät.
+  - **Ei avaimia:** Python-API pyörii Azure Functionsin käytönmukaisella Flex Consumption -tasolla ja käyttää
+    tallennustilaa hallitulla identiteetillä. Tallennustilan avaimet on kytketty pois.
+  - **Pienet oikeudet:** GitHub Actions kirjautuu OIDC:llä, ilman salasanoja, ja pääsee vain pelin omaan
+    resurssiryhmään. Roolit annan käsin erikseen.
+  - **Kaikki koodina:** infra on Bicepiä, ja jokainen muutos katsotaan `what-if`-esikatselulla ja hyväksytään ennen
+    julkaisua.
+  - **Data:** tapahtumat tallentuvat raakadatana Blob Storageen, ja elinkaarisääntö poistaa ne 30 päivän kuluttua.
+    Pistetaulukko on Table Storagessa.
+  - **Oikea vika löytyi:** Flexin oletusrinnakkaisuus jumitti pyyntöjä, ja korjasin sen mittaamalla.
 - **[AI Radar](https://ai.gerlitek.fi):** kuratoitu päivittäinen näkymä tekoälyuutisiin, tutkimukseen ja julkaisuihin (FI/EN).
   Tunneittain ajettava putki kerää RSS- ja API-lähteet, suodattaa avainsanoilla, poistaa toistot ja pisteyttää.
   PHP ja MySQL. Koodi ei ole julkinen; käyn sen läpi pyydettäessä.
