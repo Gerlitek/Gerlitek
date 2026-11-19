@@ -22,7 +22,8 @@ repository, or walk through the code on a call. Just ask.**
   - **All as code:** the infra is Bicep, and every change is previewed with `what-if` and approved before it goes out.
   - **Data:** events land as raw files in Blob Storage and a lifecycle rule deletes them after 30 days. The score table
     lives in Table Storage.
-  - **A real bug found:** Flex's default concurrency made requests hang, and I fixed it by measuring.
+  - **Debugging:** the project had real debugging across platform, client and browser, and in the end the cause was found:
+    Flex's default concurrency made requests hang.
 - **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
   pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
   Code is private; happy to go through it on request.
@@ -56,7 +57,8 @@ koodin läpi näytön jaolla. Kysy vain.**
     julkaisua.
   - **Data:** tapahtumat tallentuvat raakadatana Blob Storageen, ja elinkaarisääntö poistaa ne 30 päivän kuluttua.
     Pistetaulukko on Table Storagessa.
-  - **Oikea vika löytyi:** Flexin oletusrinnakkaisuus jumitti pyyntöjä, ja korjasin sen mittaamalla.
+  - **Debuggausta:** projektiin kuului vian etsimistä alustasta, asiakkaasta ja selaimesta, ja lopulta syy löytyi:
+    Flexin oletusrinnakkaisuus jumitti pyyntöjä.
 - **[AI Radar](https://ai.gerlitek.fi):** kuratoitu päivittäinen näkymä tekoälyuutisiin, tutkimukseen ja julkaisuihin (FI/EN).
   Tunneittain ajettava putki kerää RSS- ja API-lähteet, suodattaa avainsanoilla, poistaa toistot ja pisteyttää.
   PHP ja MySQL. Koodi ei ole julkinen; käyn sen läpi pyydettäessä.
