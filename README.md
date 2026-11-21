@@ -28,8 +28,7 @@ repository, or walk through the code on a call. Just ask.**
     cleaning rules are versioned, so a rules change rebuilds the affected days. The score table lives in Table Storage.
   - **Dashboard:** a [statistics page](https://zombit.gerlitek.fi/tilastot/) (Chart.js) reads one summary file the
     nightly run writes. No database queries per visitor, no third-party analytics.
-  - **Debugging:** the project had real debugging across the Azure platform, the game code and the browser, and in the end the cause was found:
-    Flex's default concurrency made requests hang.
+  - **Debugging:** requests hung, and the cause turned out to be Flex's default concurrency.
 - **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
   pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
   Code is private; happy to go through it on request.
@@ -69,8 +68,7 @@ koodin läpi näytön jaolla. Kysy vain.**
     uudelleen. Pistetaulukko on Table Storagessa.
   - **Tilastot:** [tilastosivu](https://zombit.gerlitek.fi/tilastot/) (Chart.js) lukee yhden valmiin yhteenvedon,
     jonka yöajo kirjoittaa. Ei tietokantakyselyitä kävijää kohden eikä kolmannen osapuolen analytiikkaa.
-  - **Debuggausta:** projektiin kuului vian etsimistä Azuren alustasta, pelin koodista ja selaimesta, ja lopulta syy löytyi:
-    Flexin oletusrinnakkaisuus jumitti pyyntöjä.
+  - **Debuggausta:** pyynnöt jumittuivat, ja syyksi löytyi Flexin oletusrinnakkaisuus.
 - **[AI Radar](https://ai.gerlitek.fi):** kuratoitu päivittäinen näkymä tekoälyuutisiin, tutkimukseen ja julkaisuihin (FI/EN).
   Tunneittain ajettava putki kerää RSS- ja API-lähteet, suodattaa avainsanoilla, poistaa toistot ja pisteyttää.
   PHP ja MySQL. Koodi ei ole julkinen; käyn sen läpi pyydettäessä.
