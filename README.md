@@ -10,7 +10,7 @@ repository, or walk through the code on a call. Just ask.**
 
 ## Selected work
 
-- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** a small browser game I built with AI, running on Azure
+- **[Ylläri-Zombit](https://github.com/Gerlitek/zombiet-peli):** a small browser game I built with AI, running on Azure
   with the whole cloud side written as code. It's live for anyone: [play it](https://zombit.gerlitek.fi) on a computer (in Finnish). Behind it runs
   this game's service with a score table:
   - **Costs under control:** a budget, an anomaly alert, and Azure Policy rules that block expensive resources and
@@ -49,7 +49,7 @@ koodin läpi näytön jaolla. Kysy vain.**
 
 ### Valitut työt
 
-- **[zombiet-peli](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, jonka tein tekoälyn kanssa ja joka
+- **[Ylläri-Zombit](https://github.com/Gerlitek/zombiet-peli):** pieni selainpeli, jonka tein tekoälyn kanssa ja joka
   pyörii Azuressa, koko pilvipuoli koodina. Peli on kaikkien saatavilla netissä: [pelaa](https://zombit.gerlitek.fi) tietokoneella.
   Azuressa pyörii tämän pelin palvelu pistetaulukkoineen:
   - **Kulut kuriin:** budjetti, poikkeamahälytys ja Azure Policy -säännöt, jotka estävät kalliit resurssit ja asetukset
