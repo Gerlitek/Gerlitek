@@ -1,6 +1,6 @@
 # Hi / Moi
 
-<img src="./assets/gerlitek-logo-transparent.png" alt="Gerlitek logo" width="28" align="middle"> *In Finnish below. Suomeksi alempana.*
+<img src="./assets/gerlitek-mark-tight.png" alt="Gerlitek logo" width="20" height="20">&nbsp;*In Finnish below. Suomeksi alempana.*
 
 I like to start from a small, real problem, prototype it quickly with AI, test it on real data, and keep only what
 turns out to be useful. Privacy and "does it actually work?" come first.
