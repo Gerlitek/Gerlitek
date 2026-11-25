@@ -1,4 +1,4 @@
-# <img src="./assets/gerlitek-logo-transparent.png" alt="Gerlitek logo" width="40"> Hi / Moi
+# <img src="./assets/gerlitek-logo-transparent.png" alt="Gerlitek logo" width="40" align="middle"> Hi / Moi
 
 *In Finnish below. Suomeksi alempana.*
 
