@@ -18,9 +18,6 @@ repository, or walk through the code on a call. Just ask.**
   - **Data in layers:** raw JSON events (30 days) → nightly curated Parquet with versioned cleaning rules → a
     [stats page](https://zombit.gerlitek.fi/tilastot/) from one summary file.
   - **Debugging:** hanging requests traced to Flex's default concurrency.
-- **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
-  pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
-  Code is private; happy to go through it on request.
 - **[Kimallus](https://github.com/Gerlitek/kimallus-peli):** a browser game for young children, live at
   [kimallus.gerlitek.fi](https://kimallus.gerlitek.fi) (in Finnish). AWS deployment in progress.
   - **Front:** TypeScript and Canvas 2D with vector art drawn in code; React for the stats page and a lazily loaded
@@ -29,6 +26,9 @@ repository, or walk through the code on a call. Just ask.**
     GSI serves the top ten with one Query, and names are word-list indexes, never free text.
   - **Serverless by design:** Lambda Function URL behind CloudFront (OAC), no fixed-cost resources, daily request caps.
   - **Two IaC tools, clear split:** Terraform for the account baseline (budget, GitHub OIDC role), CDK in TypeScript for the app.
+- **[AI Radar](https://ai.gerlitek.fi):** a curated daily view of AI news, research and releases (FI/EN). An hourly
+  pipeline collects RSS and API sources, filters by keywords, removes duplicates and scores the items. PHP and MySQL.
+  Code is private; happy to go through it on request.
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** puts Wilma exams and teachers' messages into
   iCloud calendars with reminders. Messages are interpreted by a local LLM (Ollama), so nothing leaves the machine;
   read-only towards Wilma, 149 tests. Unofficial, in Finnish.
@@ -44,6 +44,6 @@ jäljelle vain sen, mikä osoittautuu hyödylliseksi. Yksityisyys ja se, että a
 Useimmat reponi ovat yksityisiä. **Voin lähettää yksityisen linkin case studyyn, antaa lukuoikeuden repoon tai käydä
 koodin läpi näytön jaolla. Kysy vain.**
 
-**Valitut työt:** [Ylläri-Zombit](https://zombit.gerlitek.fi) (Azure, Bicep), [AI Radar](https://ai.gerlitek.fi),
-[Kimallus](https://kimallus.gerlitek.fi) (TypeScript, React, AWS), wilmaton-wilma ja photo-tidy. Tarkemmat kuvaukset
+**Valitut työt:** [Ylläri-Zombit](https://zombit.gerlitek.fi) (Azure, Bicep),
+[Kimallus](https://kimallus.gerlitek.fi) (TypeScript, React, AWS), [AI Radar](https://ai.gerlitek.fi), wilmaton-wilma ja photo-tidy. Tarkemmat kuvaukset
 yllä englanniksi.
