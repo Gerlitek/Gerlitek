@@ -18,7 +18,7 @@ repository, or walk through the code on a call. Just ask.**
   - **Data in layers:** raw JSON events (30 days) → nightly curated Parquet with versioned cleaning rules → a
     [stats page](https://zombit.gerlitek.fi/tilastot/) from one summary file.
   - **Debugging:** hanging requests traced to Flex's default concurrency.
-- **[Kimallus](https://github.com/Gerlitek/kimallus-peli):** a browser game for young children, live at
+- **[Kimallus](https://github.com/Gerlitek/kimallus-peli):** a calm, picture-first browser game, live at
   [kimallus.gerlitek.fi](https://kimallus.gerlitek.fi) (in Finnish). AWS deployment in progress.
   - **Front:** TypeScript and Canvas 2D with vector art drawn in code; React for the stats page and a lazily loaded
     leaderboard island fed by `useSyncExternalStore`.
@@ -31,7 +31,7 @@ repository, or walk through the code on a call. Just ask.**
   Code is private; happy to go through it on request.
 - **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** puts Wilma exams and teachers' messages into
   iCloud calendars with reminders. Messages are interpreted by a local LLM (Ollama), so nothing leaves the machine;
-  read-only towards Wilma, 149 tests. Unofficial, in Finnish.
+  read-only towards Wilma. Unofficial, in Finnish.
 - **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** photo orientation with a local vision model and UTF-8 EXIF captions.
 
 ---
@@ -44,6 +44,14 @@ jäljelle vain sen, mikä osoittautuu hyödylliseksi. Yksityisyys ja se, että a
 Useimmat reponi ovat yksityisiä. **Voin lähettää yksityisen linkin case studyyn, antaa lukuoikeuden repoon tai käydä
 koodin läpi näytön jaolla. Kysy vain.**
 
-**Valitut työt:** [Ylläri-Zombit](https://zombit.gerlitek.fi) (Azure, Bicep),
-[Kimallus](https://kimallus.gerlitek.fi) (TypeScript, React, AWS), [AI Radar](https://ai.gerlitek.fi), wilmaton-wilma ja photo-tidy. Tarkemmat kuvaukset
-yllä englanniksi.
+### Valitut työt
+
+- **[Ylläri-Zombit](https://zombit.gerlitek.fi):** selainpeli Azuressa, koko pilvipuoli koodina (Bicep). Kulusuojat,
+  salasanaton kirjautuminen (OIDC, hallittu identiteetti) ja data kahdessa kerroksessa yöajoineen.
+- **[Kimallus](https://kimallus.gerlitek.fi):** selainpeli TypeScriptillä, Canvas 2D:llä ja Reactilla. Pistepalvelu
+  Lambdalla ja DynamoDB:llä; AWS-julkaisu (Terraform, CDK) työn alla.
+- **[AI Radar](https://ai.gerlitek.fi):** päivittäinen näkymä tekoälyuutisiin. Tunneittain ajettava putki kerää,
+  suodattaa ja pisteyttää lähteet.
+- **[wilmaton-wilma](https://github.com/Gerlitek/wilmaton-wilma):** Wilman viestit ja tapahtumat kalenteriin
+  paikallisen kielimallin avulla; mikään ei lähde koneelta.
+- **[photo-tidy](https://github.com/Gerlitek/photo-tidy):** kuvien suunnan korjaus paikallisella näkömallilla.
